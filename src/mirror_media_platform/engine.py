@@ -15,3 +15,5 @@ def analyze_media(filepath: str) -> ResultContract:
         value="aggregated", source="mirror_platform", observed_at=now,
         confidence=0.96, status=EpistemicStatus.FACT))
     return contract
+
+# ghost forensics integrated
