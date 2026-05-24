@@ -17,3 +17,5 @@ def analyze_media(filepath: str) -> ResultContract:
     return contract
 
 # ghost forensics integrated
+
+# echo similarity integrated
