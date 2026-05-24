@@ -11,3 +11,5 @@ def health():
 @app.get("/api/v1/analyze")
 def analyze(filepath: str):
     return analyze_media(filepath)
+
+# upload endpoint added
